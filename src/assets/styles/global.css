@@ -1,0 +1,65 @@
+/* Global styles for the application */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #021337;
+  --secondary-color: #1c677e;
+
+  --font-color: #fff;
+  --font-color-light: #e4e4e4;
+  --font-color-dark: #114d57;
+
+  --border-radius: 4px;
+
+  --input-bg-color: #ffffff33;
+  --input-focus-border: #fdeded;
+
+  --btn-bg-color: #6a9bc1;
+  --btn-bg-hover-color: #3a6174;
+  --btn-bg-active-color: #aec7cc;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background-color: var(--font-color);
+  color: var(--font-color-dark);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+  background-color: #126d88;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  background-color: var(--btn-bg-color);
+  color: var(--font-color);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: var(--btn-bg-hover-color);
+}
