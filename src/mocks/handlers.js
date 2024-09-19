@@ -45,7 +45,10 @@ export const handlers = [
 
       // Devolvemos el nuevo usuario creado
       console.log("Usuario agregado:", newUser);
+      //Si quieremos devolver el nuevo usuario creado
       // return HttpResponse.json(newUser, { status: 201 });
+      
+      //Status solicitado
       return new HttpResponse(null, { status: 204 }); // No se devuelve cuerpo
     } catch (error) {
       // Captura y log de errores

@@ -1,8 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import UserListView from "@/views/UserListView.vue";
 import UserCreateView from "@/views/UserCreateView.vue";
-// import UserList from "../components/UserList.vue";
-// import UserForm from "../components/UserForm.vue";
 
 // Vue.use(createRouter);
 
